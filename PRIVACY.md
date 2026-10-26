@@ -1,6 +1,6 @@
 # Top Shelf privacy
 
-Last updated: October 19, 2026
+Last updated: October 26, 2026
 
 Top Shelf is a photo culling app. It doesn't need to know who you are, and it doesn't try to find out. Your photographs are the most personal thing on your Mac, so Top Shelf is built to keep them there.
 
@@ -53,8 +53,13 @@ These features hand your photos to another app or service, and only when you use
 
 - **Share** sends the photos you choose to the service you pick (AirDrop, Messages, and so on), under that service's terms.
 - **Send to Editor** and **Import into Capture One** open your copied photos in the editing app you choose. The first time you use the Capture One import, macOS asks whether Top Shelf may control Capture One.
+- **Dragging** photos out of Top Shelf, **copying** them with ⌘C, and **Photo ▸ Open a Copy With** hand the receiving app a private copy of the photo, never the original on your card. What that app does with its copy is up to that app.
 - The **Lightroom Classic plug-in** runs inside Lightroom on your Mac. It reads the manifest file Top Shelf saved next to your copies, and it makes no internet connections.
-- **Help ▸ Top Shelf Help** and **Help ▸ Privacy Policy** open this repository's pages in your web browser.
+- **Help ▸ Release Notes** and **Help ▸ Report an Issue…** open this repository's pages in your web browser. The user guide, this privacy policy, and the acknowledgements are built into the app and open without a connection.
+
+## Notifications
+
+When a long copy finishes while you're working in another app, Top Shelf can show a notification such as "Copy Complete — 312 files copied and verified to Selects." macOS asks for your permission the first time you start a copy. Notifications are created on your Mac and shown by macOS; nothing is sent to a server. Turn them off any time in **System Settings ▸ Notifications ▸ Top Shelf**.
 
 ## What Top Shelf keeps on your Mac
 
@@ -62,12 +67,14 @@ Top Shelf's own data lives in its private folder, `~/Library/Containers/com.tops
 
 | What | Why | How long |
 |---|---|---|
-| Review sessions: the list of photos in each shoot (file names and locations, capture times, camera, lens, and exposure details), your Picks, Alternates, stars, moment names, and quality notes | So you can close Top Shelf and pick up where you left off | Until you remove the session (Settings ▸ Cache ▸ Remove Old Sessions) |
+| Review sessions: the list of photos in each shoot (file names and locations, capture times, camera, lens, and exposure details), your Picks, Alternates, stars, moment names, view rotations, and quality notes | So you can close Top Shelf and pick up where you left off | Until you remove the session (Settings ▸ Cache ▸ Remove Old Sessions) |
 | Similarity data: compact numeric summaries used to group similar photos | So grouping doesn't have to be recomputed every time | Removed with its session |
 | Preview cache: small and medium-sized previews of your photos | Fast scrolling and instant review | Kept under the size you set in Settings; clear it anytime there |
 | Copy progress records, including the source and destination locations | So an interrupted copy can resume without re-copying finished files | Removed when the copy completes or you discard it |
 | Folder and card access you've granted, stored as macOS bookmarks; for connected cameras, the camera's serial number | So you aren't asked again, and so a review resumes on the same card or camera | Until you remove the session |
-| Your settings, including your preferred editor and update preferences | So Top Shelf works the way you set it up | Until you remove the folder |
+| Shared copies: private copies of photos you dragged out or copied with ⌘C | So the receiving app gets a copy instead of your original | Removed automatically after a day |
+| Opened copies: private copies of photos you opened in another app with **Open a Copy With**, including any edits you saved to them there | So your edits aren't lost while you're still working on them | Removed automatically once untouched for 30 days |
+| Your settings, including your preferred editor, update preferences, and which introductions you've already seen | So Top Shelf works the way you set it up | Until you remove the folder |
 
 **High-Resolution Cache.** You choose this folder on first launch. Top Shelf creates its own subfolder there for full-size working copies, used mainly when reviewing from a connected camera. It's yours to see and clear: **Settings ▸ Cache ▸ Clear High-Resolution Cache**. Top Shelf only ever removes its own subfolder.
 
