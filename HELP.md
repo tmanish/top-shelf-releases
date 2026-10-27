@@ -50,13 +50,14 @@ You can start reviewing immediately. Top Shelf keeps organizing (finding moments
 
 - **Sidebar (left)** — show or hide it with the sidebar button at the top left.
   - *All Photos, Unreviewed, Picks, Alternates, Not Selected* — quick filters, each with a count.
+  - *Suggestions ▸ Auto Suggest* — the frames Top Shelf would keep, kept apart from your own decisions. See [Auto Suggest](#auto-suggest) below.
   - *Dates* — each shooting day. Long archives are grouped by month; click a month to expand it.
   - *Moments* — runs of shooting close together in time. Right-click a moment to rename it ("Ceremony", "Golden hour"); the name follows your photos into your editor as a keyword.
   - *Focal Lengths* — filter by Ultra-Wide, Wide, Standard, Portrait, Telephoto, or Super-telephoto.
   - *Utilities* — Selection Story, Selection Coverage, and Recently Viewed.
-  - At the bottom, your review progress.
-- **Toolbar** — Home/Back, the **Grid | Bursts | Stacks** switch, the **Best of Each Burst** and **One at a Time** buttons, grouping strength, Share, Copy, Search, and the Inspector button.
-- **Filter bar** — under the shoot's title: **All, Picks, Alternates, Unreviewed, Not Selected**.
+  - At the bottom, your review progress with your Picks and Alternates.
+- **Toolbar** — Home/Back, the **Grid | Bursts | Stacks** switch, grouping strength, Share (while a photo is selected), Copy, Search, and the Inspector button.
+- **Title** — what you're looking at and how many photos. On the right: **Best of Each Burst** and **One at a Time**.
 - **Inspector (right)** — camera, lens, exposure, file details, and quality notes for the current photo. Show or hide it with the button at the far right of the toolbar.
 - **Home and Back** — on the grid, the house button returns to the home screen. Inside any photo view it becomes **Back**, which returns you to the grid.
 
@@ -71,6 +72,19 @@ You can start reviewing immediately. Top Shelf keeps organizing (finding moments
 - **Broad** — more variation from the same scene stacks together.
 
 If a stack mixes two different moments, open it and use **Photo ▸ Split Stack**, or merge neighbouring stacks with **Merge with Previous/Next Stack**. **Mark Visually Distinct** takes a frame out of its stack.
+
+### Auto Suggest
+
+Choose **Auto Suggest** under *Suggestions* in the sidebar, or **View ▸ Auto Suggest** (⇧⌘A), to see which frames Top Shelf would keep. Choose **All Photos** to go back. **Nothing is marked**: the photos you've already picked appear beside the suggestions, and every other photo stays as it was.
+
+- **Bursts.** The strongest frame is suggested: the subject is sharpest, the eyes are open, and the highlights aren't blown. A long burst can get two or three suggestions, but only when the extra frames are nearly as good and look clearly different, such as a different wing position.
+- **Single shots.** Suggested when they're sharp, the eyes are open, and the highlights are mostly intact.
+- **Close call.** The burst's best frames score almost the same, so it's worth a look yourself. Hover over any badge to see why that frame was chosen.
+- **Your decisions come first.** Photos you've marked are never suggested. If you pick one suggestion in a burst, the others stay as long as they still look different from it.
+
+When you're happy, click **Mark All as Pick**. It marks every suggestion shown as a Pick and leaves your other decisions alone. **Edit ▸ Undo** (⌘Z) reverses it in one step. Search narrows what's shown, and **Mark All as Pick** changes only what you can see. Auto Suggest works with Grid, Bursts, and Stacks.
+
+Auto Suggest uses the on-device quality checks, so suggestions appear as analysis finishes. If **Settings ▸ General ▸ Show technical observations** was off when you opened the review, turn it on and reopen the review.
 
 **First-time tour.** The first time you open each review mode, a short explainer shows what it does. You can replay the full tour any time with **Help ▸ Review Modes Tour**.
 
@@ -91,7 +105,7 @@ You can also give stars with **1–5**. Select several photos to decide them all
 
 ## 5. Best of Each Burst
 
-The fastest way through bursts: one decision per group of near-identical shots. Press **T**, or click **Best of Each Burst** in the toolbar.
+The fastest way through bursts: one decision per group of near-identical shots. Press **T**, or click **Best of Each Burst** at the top right. Click **Done** to go back to the grid.
 
 Top Shelf shows each burst one at a time. The suggested frame is large; the others sit underneath, ranked, with how sharp each one is.
 
@@ -120,7 +134,7 @@ Top Shelf is built for high frame-rate cameras — stacked-sensor bodies shootin
 
 ## 6. One at a Time
 
-One photo at a time, full screen, one key each. Press **S**, or click **One at a Time** in the toolbar.
+One photo at a time, full screen, one key each. Press **S**, or click **One at a Time** at the top right. Click **Done** to go back to the grid.
 
 - **P** pick, **A** alternate, **X** not selected, **U** undecided — decides and jumps to the next photo.
 - **← / →** move without deciding. The filmstrip below shows where you are; click any frame to jump to it.
@@ -224,6 +238,7 @@ If your photos live in iCloud Drive, macOS may keep some of them only in the clo
 | T | Best of Each Burst |
 | S | One at a Time |
 | C | Compare |
+| ⇧⌘A | Auto Suggest |
 
 **Viewing**
 
