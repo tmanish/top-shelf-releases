@@ -107,15 +107,15 @@ You can also give stars with **1–5**. Select several photos to decide them all
 
 The fastest way through bursts: one decision per group of near-identical shots. Press **T**, or click **Best of Each Burst** at the top right. Click **Done** to go back to the grid.
 
-Top Shelf shows each burst one at a time. The suggested frame is large; the others sit underneath, ranked, with how sharp each one is.
+Top Shelf shows each burst one at a time — only burst photos are shown (the header says so); single photos stay in the grid and One at a Time. The suggested frame is large; the burst's frames sit underneath in the order they were shot, with how sharp each one is and badges **1–4** on the best-ranked frames. **Frame 3 of 7** under the photo shows where you are in the burst.
 
 - **S** or **Return** — Accept: this frame becomes the Pick, the burst's undecided frames become Not Selected, and you move to the next burst. Frames you already marked as a Pick or Alternate stay kept.
 - **1–4** — look at a different frame from the strip instead.
-- **Hold ↓ / ↑** — scrub through the burst frame by frame, like video.
+- **→ / ←** — next / previous frame in the burst (or click the arrows beside *Frame 3 of 7*). Hold the key to scrub through the burst like video.
 - **A** — mark this frame as an Alternate (keeps the burst open, for bursts worth two keepers).
 - **X** — Reject the whole burst.
 - **U** — Reset the burst to undecided.
-- **← / →** — previous / next burst without deciding.
+- **↓** or **Next Burst** — move on to the next burst without deciding; **↑** goes back one.
 - **Space** — Fit ↔ 100%. Zoom stays put as you move between frames of the same burst, so you can compare focus on the same spot.
 - **Esc** — back to the grid.
 
@@ -127,7 +127,7 @@ Top Shelf is built for high frame-rate cameras — stacked-sensor bodies shootin
 
 - **Pick the right grouping.** At very high frame rates, **Tight** keeps each burst to near-identical frames, so a long sequence splits into separate moments of action. **Balanced** suits most sports and wildlife. Use **Broad** if a burst was split where you didn't want it.
 - **Best of Each Burst first, One at a Time second.** Choose one frame from every burst, then use One at a Time with the **Unreviewed** filter to sweep up the single frames in between.
-- **Scrub, then zoom.** Hold **↓** to flip through a burst until the action peaks — the wing at full extension, the ball on the bat. Then press **Space** to check focus at 100% before accepting.
+- **Scrub, then zoom.** Hold **→** to flip through a burst until the action peaks — the wing at full extension, the ball on the bat. Then press **Space** to check focus at 100% before accepting.
 - **Pre-capture frames are ordinary frames.** They land in the same stack as the rest of the burst, so Top Shelf ranks them like any other frame. The decisive moment often sits in the pre-capture part.
 - **Trust, but check, the suggestion.** Suggestions weigh subject sharpness, closed eyes, and clipped highlights. They can't judge the peak of action or your composition — that's still your call.
 - **Shooting to two cards?** Cull the first card, then open the second; Top Shelf offers to carry your decisions over (see [Two-card shoots](#10-two-card-shoots)).
@@ -145,7 +145,7 @@ One at a Time goes through whatever the grid is showing when you start — so yo
 
 ## 7. Looking closely
 
-**Stack Review.** Double-click a photo (or press Return) to see it large with its stack in a strip below.
+**Stack Review.** Double-click a photo (or press Return) to see it large. The strip below shows every photo; each burst's frames share a shaded group labelled *Burst · 7*, and the current burst is highlighted. **← / →** go through every photo — through a burst and on to the photos after it. **↑ / ↓** jump to the previous / next burst or single photo.
 
 **Zoom.** Real 100% means one pixel of your photo per pixel of your screen.
 - **Space** — toggle Fit / 100%
@@ -231,7 +231,7 @@ If your photos live in iCloud Drive, macOS may keep some of them only in the clo
 | Key | Action |
 | --- | --- |
 | ← → | Previous / next photo |
-| ↑ ↓ | Previous / next stack |
+| ↑ ↓ | Previous / next burst |
 | Return | Open the photo large |
 | Esc | Back |
 | G | Grid |
