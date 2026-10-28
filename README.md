@@ -26,8 +26,9 @@ Importing all of that into Lightroom just to throw most of it away is slow, fill
 Top Shelf turns it around: **cull first, import only the keepers.**
 
 - **Bursts, grouped for you.** Near-identical frames shot within moments of each other are grouped automatically, so 3,000 frames become a few hundred decisions.
-- **Best of Each Burst.** One decision per burst. Top Shelf suggests the strongest frame and tells you why — *eyes open*, *sharper subject*, *fewer clipped highlights* — and one key accepts it. Hold ↓ to scrub through the burst like video.
-- **One at a Time.** One frame, full screen. **P** pick, **A** alternate, **X** reject, and the next frame is already there.
+- **Best of Each Burst.** Bursts one at a time, the strongest frame first. Top Shelf tells you why it's suggested — *eyes open*, *sharper subject*, *fewer clipped highlights* — and **P** picks it and moves to the next burst. Hold → to scrub through the burst like video.
+- **One at a Time.** One frame, full size. **P** pick, **A** alternate, **X** not selected, and the next frame is already there. The filmstrip groups each burst, so you always see where you are.
+- **Auto Suggest.** See the frames Top Shelf would keep across the whole shoot. Nothing is marked until you choose **Mark All as Pick** — and one ⌘Z undoes it.
 
 Top Shelf works with the files your camera writes. Shooting with a Sony A1 or A9 III, Canon EOS R1 or R5 Mark II, Nikon Z8 or Z9, Fujifilm X-H2S, or an OM System body with Pro Capture? If macOS can open your RAW files, Top Shelf can cull them. RAW support comes from macOS, and Apple adds new cameras in system updates.
 
