@@ -48,7 +48,7 @@ You can start reviewing immediately. Top Shelf keeps organizing (finding moments
 
 ## 3. Finding your way around
 
-- **Sidebar (left)** — show or hide it with the sidebar button at the top left.
+- **Sidebar (left)** — show or hide it with the sidebar button at the top left (⌃⌘S). When you open a photo large, the sidebar steps aside so the photo fills the window; the same button brings it back there.
   - *All Photos, Unreviewed, Picks, Alternates, Not Selected* — quick filters, each with a count.
   - *Suggestions ▸ Auto Suggest* — the frames Top Shelf would keep, kept apart from your own decisions. See [Auto Suggest](#auto-suggest) below.
   - *Dates* — each shooting day. Long archives are grouped by month; click a month to expand it.
@@ -109,12 +109,15 @@ The fastest way through bursts: one decision per group of near-identical shots. 
 
 Top Shelf shows each burst one at a time — only burst photos are shown (the header says so); single photos stay in the grid and One at a Time. The suggested frame is large; the burst's frames sit underneath in the order they were shot, with how sharp each one is and badges **1–4** on the best-ranked frames. **Frame 3 of 7** under the photo shows where you are in the burst.
 
-- **S** or **Return** — Accept: this frame becomes the Pick, the burst's undecided frames become Not Selected, and you move to the next burst. Frames you already marked as a Pick or Alternate stay kept.
+The buttons are the same as in One at a Time — **Pick**, **Alternate**, **Not Selected**, **Undecided** — and act on the frame shown.
+
+- **P** (or **S**, or **Return**) — Pick: this frame becomes the Pick, the burst's undecided frames become Not Selected, and you move to the next burst. Frames you already marked as a Pick or Alternate stay kept.
 - **1–4** — look at a different frame from the strip instead.
 - **→ / ←** — next / previous frame in the burst (or click the arrows beside *Frame 3 of 7*). Hold the key to scrub through the burst like video.
 - **A** — mark this frame as an Alternate (keeps the burst open, for bursts worth two keepers).
-- **X** — Reject the whole burst.
-- **U** — Reset the burst to undecided.
+- **X** — mark this frame Not Selected and move to the next frame.
+- **U** — return this frame to Undecided.
+- **⇧X** (or **Photo ▸ Set Aside Burst**) — set the whole burst aside: every frame becomes Not Selected.
 - **↓** or **Next Burst** — move on to the next burst without deciding; **↑** goes back one.
 - **Space** — Fit ↔ 100%. Zoom stays put as you move between frames of the same burst, so you can compare focus on the same spot.
 - **Esc** — back to the grid.
