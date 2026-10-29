@@ -19,7 +19,7 @@ Review a shoot straight off the card, pick the frames worth keeping, and copy on
 
 ## Made for high frame-rate cameras
 
-Modern stacked-sensor cameras shoot 20, 30, even 120 frames per second, and pre-capture modes save the moments *before* you pressed the shutter. A single afternoon of birds in flight, motorsport, or a first dance can mean thousands of frames that differ by a wingbeat.
+Modern stacked-sensor cameras — the **Sony A1 and A9 III, Canon EOS R1 and R5 Mark II, Nikon Z8 and Z9, Fujifilm X-H2S**, and OM System bodies with Pro Capture — shoot 20, 30, even 120 frames per second, and pre-capture modes save the moments *before* you pressed the shutter. A single afternoon of birds in flight, motorsport, or a first dance can mean thousands of frames that differ by a wingbeat.
 
 Importing all of that into Lightroom just to throw most of it away is slow, fills your disk, and buries the good frames.
 
@@ -30,7 +30,7 @@ Top Shelf turns it around: **cull first, import only the keepers.**
 - **One at a Time.** One frame, full size. **P** pick, **A** alternate, **X** not selected, and the next frame is already there. The filmstrip groups each burst, so you always see where you are.
 - **Auto Suggest.** See the frames Top Shelf would keep across the whole shoot. Nothing is marked until you choose **Mark All as Pick** — and one ⌘Z undoes it.
 
-Top Shelf works with the files your camera writes. Shooting with a Sony A1 or A9 III, Canon EOS R1 or R5 Mark II, Nikon Z8 or Z9, Fujifilm X-H2S, or an OM System body with Pro Capture? If macOS can open your RAW files, Top Shelf can cull them. RAW support comes from macOS, and Apple adds new cameras in system updates.
+Top Shelf works with the files your camera writes: if macOS can open your RAW files, Top Shelf can cull them. RAW support comes from macOS, and Apple adds new cameras in system updates.
 
 ## What it does
 
