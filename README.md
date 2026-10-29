@@ -74,8 +74,6 @@ Read the full [privacy policy](PRIVACY.md).
 
 ## Download and install
 
-The first public release is being prepared. When it's out:
-
 1. [Download Top Shelf](https://github.com/tmanish/top-shelf-releases/releases/latest/download/TopShelf.dmg) (always the latest version), or pick a file from [Releases](https://github.com/tmanish/top-shelf-releases/releases/latest).
 2. Open it and drag **Top Shelf** to the Applications folder.
 3. Eject the disk image, then open Top Shelf from Applications. On first launch you'll choose a working cache folder and a default export folder.
