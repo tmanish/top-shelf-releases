@@ -51,6 +51,7 @@ You can start reviewing immediately. Top Shelf keeps organizing (finding moments
 - **Sidebar (left)** — show or hide it with the sidebar button at the top left (⌃⌘S). When you open a photo large, the sidebar steps aside so the photo fills the window; the same button brings it back there.
   - *All Photos, Unreviewed, Picks, Alternates, Not Selected* — quick filters, each with a count.
   - *Suggestions ▸ Auto Suggest* — the frames Top Shelf would keep, kept apart from your own decisions. See [Auto Suggest](#auto-suggest) below.
+  - *Ratings* — the photos you gave five, four, three, two, or one star (press **1–5** to rate), each with a count.
   - *Dates* — each shooting day. Long archives are grouped by month; click a month to expand it.
   - *Moments* — runs of shooting close together in time. Right-click a moment to rename it ("Ceremony", "Golden hour"); the name follows your photos into your editor as a keyword.
   - *Focal Lengths* — filter by Ultra-Wide, Wide, Standard, Portrait, Telephoto, or Super-telephoto.
