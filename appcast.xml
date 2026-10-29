@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Top Shelf</title>
+        <item>
+            <title>1.13</title>
+            <pubDate>Wed, 28 Oct 2026 20:58:50 -0400</pubDate>
+            <link>https://github.com/tmanish/top-shelf-releases</link>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>1.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink sparkle:edSignature="IM/CVsc+p7rJn6bxYzWO2g8V/B9xEo2gDV3Fmf0VnUDaKNQLykchSipxsCpS0ANSD6JmZBtCuZ5OsUQ/j268Cw==" sparkle:length="1021">https://github.com/tmanish/top-shelf-releases/releases/download/v1.13-23/TopShelf-1.13-23.md</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/tmanish/top-shelf-releases/releases/download/v1.13-23/TopShelf-1.13-23.dmg" length="9595529" type="application/octet-stream" sparkle:edSignature="cithykJJhsC37pjzJOHLjZ2H03Edm/R3pg39Vv6s1WREwADkzzDv1EatJAnIkCATzsED/KMqz+h/CAhD//+bBQ=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: ASIP2YqHzPlqtrHotPxMb3cm5wl0KMn68VaFOmr0C7wXx9ytjbANkQ8N4ca6y+qCChm25apDE/d3upk1r1fKBA==
+length: 1416
+-->
