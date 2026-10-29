@@ -114,7 +114,3 @@ Nothing is downloaded or installed until you say so. Every update is signed, and
 ## Acknowledgements
 
 Top Shelf includes [Sparkle](https://sparkle-project.org) for updates, used under its MIT license; the full notice ships inside the app (**Help ▸ Acknowledgements**).
-
----
-
-Top Shelf is made by **Absolu**. © 2026 Absolu. All rights reserved.
