@@ -127,7 +127,7 @@ Each burst decision is one undo step. When every burst is decided you'll get a s
 
 ### Tips for high-speed bursts
 
-Top Shelf is built for high frame-rate cameras — stacked-sensor bodies such as the Sony A1 and A9 III, Canon EOS R1 and R5 Mark II, Nikon Z8 and Z9, and Fujifilm X-H2S, shooting 20 to 120 frames per second, and pre-capture modes (often called pre-burst, Pro Capture, Pre-Shot, or Pre-Release Capture) that save frames from just before you pressed the shutter.
+Top Shelf is built for cameras that shoot 20 to 120 frames per second: the Sony A1, A9, and A7 series, the Canon EOS R1, R3, R5, R6, and R7 series, the Nikon Z9, Z8, and Z6 series, the Fujifilm X-H series, the OM System OM-1 series, and the Panasonic Lumix G9 and S1 series. It also handles pre-capture modes (often called pre-burst, Pro Capture, Pre-Shot, or Pre-Release Capture), which save frames from just before you pressed the shutter.
 
 - **Pick the right grouping.** At very high frame rates, **Tight** keeps each burst to near-identical frames, so a long sequence splits into separate moments of action. **Balanced** suits most sports and wildlife. Use **Broad** if a burst was split where you didn't want it.
 - **Best of Each Burst first, One at a Time second.** Choose one frame from every burst, then use One at a Time with the **Unreviewed** filter to sweep up the single frames in between.
