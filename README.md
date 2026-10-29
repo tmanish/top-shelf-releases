@@ -19,11 +19,11 @@ Review a shoot straight off the card, pick the frames worth keeping, and copy on
 
 ## Made for high frame-rate cameras
 
-I built Top Shelf for the cameras that shoot 20, 30, 60, even 120 frames per second: the **Sony A1, A9, and A7 series**, the **Canon EOS R1, R3, R5, R6, and R7 series**, the **Nikon Z9, Z8, and Z6 series**, the **Fujifilm X-H series**, the **OM System OM-1 series**, and the **Panasonic Lumix G9 and S1 series**. Many of them also have pre-capture modes that save the moments *before* you pressed the shutter. One afternoon of birds in flight or motorsport can leave you with thousands of frames that differ by a wingbeat.
+Top Shelf was built for cameras that shoot 20, 30, 60, even 120 frames per second: the **Sony A1, A9, and A7 series**, the **Canon EOS R1, R3, R5, R6, and R7 series**, the **Nikon Z9, Z8, and Z6 series**, the **Fujifilm X-H series**, the **OM System OM-1 series**, and the **Panasonic Lumix G9 and S1 series**. Many of them also have pre-capture modes that save the moments *before* you pressed the shutter. A single afternoon of birds in flight or motorsport can leave you with thousands of frames that differ by no more than a wingbeat.
 
-Importing all of that into Lightroom only to throw most of it away takes ages. It fills your disk, too, and the good frames get buried.
+Importing all of that into Lightroom just to discard most of it costs you time and disk space, and your best frames end up buried in the pile.
 
-So flip the order. **Cull first, then import only the keepers.**
+Top Shelf reverses the order. **Cull first, then import only the keepers.**
 
 - **Bursts, grouped for you.** Near-identical frames shot moments apart are grouped automatically, so 3,000 frames turn into a few hundred decisions.
 - **Best of Each Burst.** You see one burst at a time, strongest frame first, along with the reason it was suggested (*eyes open*, *sharper subject*, *fewer clipped highlights*). Press **P** to pick it and jump to the next burst. Hold → to scrub through the burst like video.
