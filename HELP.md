@@ -1,5 +1,7 @@
 # Top Shelf — User Guide
 
+Last updated: October 29, 2026
+
 Top Shelf helps you choose the best photographs from a shoot *before* they go into your library. You review straight from the card or folder, mark what you want, and copy only those.
 
 **The one rule Top Shelf never breaks:** it never changes your original files. It doesn't rename, move, edit, tag, or delete anything on your card or source folder. Ratings and keywords are written only to the copies.
@@ -42,7 +44,7 @@ From the home screen:
 - **Memory card or drive** — insert it; it appears on the home screen. Click **Review Photos** and confirm access. (macOS requires that confirmation before any app can read a card.)
 - **Folder** — click **Choose Folder to Review…** (⌘O), or drag a folder onto the home screen.
 - **Camera** — connect it by USB; it appears on the home screen. If your camera doesn't show up or behaves oddly, put it in mass-storage/PC mode or insert its card instead.
-- **Pick up where you left off** — recent reviews are listed on the home screen and under **File ▸ Open Recent Session**. Your decisions are saved automatically as you work.
+- **Pick up where you left off** — recent reviews are listed on the home screen and under **File ▸ Open Recent Session**. Your decisions are saved automatically as you work, including during continuous keyboard review.
 
 You can start reviewing immediately. Top Shelf keeps organizing (finding moments, similar photos, and quality hints) in the background, starting with the photos nearest to where you are.
 
@@ -183,6 +185,7 @@ You'll see a summary before anything is copied: how many photos and files, how m
 - Every copied file is **verified** against the original (SHA-256). Only verified files count as done.
 - If a file with the same name already exists at the destination, Top Shelf follows your setting. The default skips files that are identical and keeps both when they differ. You can also choose *Skip*, *Keep Both*, or *Replace* (Replace always asks you to confirm first).
 - **Pause, resume, or cancel** at any time. If your Mac sleeps, a cable is pulled, or the app quits, the copy can be resumed later — from the copy sheet or the home screen — without re-copying finished files.
+- On resume, **Checking existing copies** shows verification progress before copying continues. Pause and Cancel work during this check too.
 - **Work elsewhere while it runs.** The Dock icon shows the copy's progress. If you've switched to another app when it finishes, Top Shelf posts a notification and bounces its Dock icon; files that couldn't be copied leave a count on the icon. (macOS asks once, at your first copy, whether Top Shelf may show notifications.)
 
 When the copy finishes you'll see a checklist confirming the result. Beside your photos you'll also find:
@@ -203,8 +206,10 @@ Ratings travel with your copies: **Picks = ★★★★★, Alternates = ★★�
 **Quick hand-offs while you review.** Other apps always receive a private copy of the photo, never the file on your card, so nothing they do can change your original.
 - **Drag** photos from the grid into Finder, Mail, Messages, or an editor.
 - **⌘C** (Edit ▸ Copy) puts the selected photos on the clipboard as files; paste them into Finder or another app.
-- **Photo ▸ Open a Copy With** (also on the right-click menu) opens the photo in any app that can read it. Edits you save there land on that copy.
-- **Share** (toolbar) sends the current photo with AirDrop, Messages, Add to Photos, and so on.
+- **Photo ▸ Open a Copy With** (also on the right-click menu) opens a private RAW copy when the photograph has one, with its XMP sidecar alongside it; otherwise it opens the JPEG, HEIF, or other available image. Download any cloud-only RAW or sidecar first. Edits you save land on that copy. These opened copies **do not expire**. Find, move, or remove them yourself with **Photo ▸ Show Opened Copies in Finder**, available from Home too.
+- **Share** (toolbar) sends a private copy of the current photo with AirDrop, Messages, Add to Photos, and so on. Share, drag, and ⌘C use the JPEG/HEIF preview companion when available.
+
+In Compare, the highlighted pane is the current photograph for Photo-menu decisions, rotation, sharing, and Copy Current Photo. Click a pane or use Tab to choose it.
 
 ## 10. Two-card shoots
 

@@ -1,6 +1,6 @@
 # Top Shelf privacy
 
-Last updated: October 26, 2026
+Last updated: October 29, 2026
 
 Top Shelf is a photo culling app. It doesn't need to know who you are, and it doesn't try to find out. Your photographs are the most personal thing on your Mac, so Top Shelf is built to keep them there.
 
@@ -51,7 +51,7 @@ This happens only after you choose to install. The update comes from this reposi
 
 These features hand your photos to another app or service, and only when you use them:
 
-- **Share** sends the photos you choose to the service you pick (AirDrop, Messages, and so on), under that service's terms.
+- **Share** sends private copies of the photos you choose to the service you pick (AirDrop, Messages, and so on), under that service's terms.
 - **Send to Editor** and **Import into Capture One** open your copied photos in the editing app you choose. The first time you use the Capture One import, macOS asks whether Top Shelf may control Capture One.
 - **Dragging** photos out of Top Shelf, **copying** them with ⌘C, and **Photo ▸ Open a Copy With** hand the receiving app a private copy of the photo, never the original on your card. What that app does with its copy is up to that app.
 - The **Lightroom Classic plug-in** runs inside Lightroom on your Mac. It reads the manifest file Top Shelf saved next to your copies, and it makes no internet connections.
@@ -72,8 +72,8 @@ Top Shelf's own data lives in its private folder, `~/Library/Containers/com.tops
 | Preview cache: small and medium-sized previews of your photos | Fast scrolling and instant review | Kept under the size you set in Settings; clear it anytime there |
 | Copy progress records, including the source and destination locations | So an interrupted copy can resume without re-copying finished files | Removed when the copy completes or you discard it |
 | Folder and card access you've granted, stored as macOS bookmarks; for connected cameras, the camera's serial number | So you aren't asked again, and so a review resumes on the same card or camera | Until you remove the session |
-| Shared copies: private copies of photos you dragged out or copied with ⌘C | So the receiving app gets a copy instead of your original | Removed automatically after a day |
-| Opened copies: private copies of photos you opened in another app with **Open a Copy With**, including any edits you saved to them there | So your edits aren't lost while you're still working on them | Removed automatically once untouched for 30 days |
+| Shared copies: private copies of photos you shared, dragged out, or copied with ⌘C | So the receiving app gets a copy instead of your original | Removed automatically after a day |
+| Opened copies: private copies of photos you opened in another app with **Open a Copy With**, including any edits you saved to them there | So your saved edits remain available | No automatic expiry; use Photo ▸ Show Opened Copies in Finder to find or remove them yourself |
 | Your settings, including your preferred editor, update preferences, and which introductions you've already seen | So Top Shelf works the way you set it up | Until you remove the folder |
 
 **High-Resolution Cache.** You choose this folder on first launch. Top Shelf creates its own subfolder there for full-size working copies, used mainly when reviewing from a connected camera. It's yours to see and clear: **Settings ▸ Cache ▸ Clear High-Resolution Cache**. Top Shelf only ever removes its own subfolder.
