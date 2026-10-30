@@ -1,6 +1,6 @@
 # Top Shelf — User Guide
 
-Last updated: October 29, 2026
+Last updated: October 30, 2026
 
 Top Shelf helps you choose the best photographs from a shoot *before* they go into your library. You review straight from the card or folder, mark what you want, and copy only those.
 
@@ -207,7 +207,7 @@ Ratings travel with your copies: **Picks = ★★★★★, Alternates = ★★�
 - **Drag** photos from the grid into Finder, Mail, Messages, or an editor.
 - **⌘C** (Edit ▸ Copy) puts the selected photos on the clipboard as files; paste them into Finder or another app.
 - **Photo ▸ Open a Copy With** (also on the right-click menu) opens a private RAW copy when the photograph has one, with its XMP sidecar alongside it; otherwise it opens the JPEG, HEIF, or other available image. Download any cloud-only RAW or sidecar first. Edits you save land on that copy. These opened copies **do not expire**. Find, move, or remove them yourself with **Photo ▸ Show Opened Copies in Finder**, available from Home too.
-- **Share** (toolbar) sends a private copy of the current photo with AirDrop, Messages, Add to Photos, and so on. Share, drag, and ⌘C use the JPEG/HEIF preview companion when available.
+- **Share** (toolbar) sends a private copy of the current photo with AirDrop, Messages, Add to Photos, and so on, preserving the shared file’s format and filename. Share, drag, and ⌘C use the JPEG/HEIF preview companion when available.
 
 In Compare, the highlighted pane is the current photograph for Photo-menu decisions, rotation, sharing, and Copy Current Photo. Click a pane or use Tab to choose it.
 
