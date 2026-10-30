@@ -43,8 +43,8 @@ From the home screen:
 
 - **Memory card or drive** — insert it; it appears on the home screen. Click **Review Photos** and confirm access. (macOS requires that confirmation before any app can read a card.)
 - **Folder** — click **Choose Folder to Review…** (⌘O), or drag a folder onto the home screen.
-- **Camera** — connect it by USB; it appears on the home screen. If your camera doesn't show up or behaves oddly, put it in mass-storage/PC mode or insert its card instead.
-- **Pick up where you left off** — recent reviews are listed on the home screen and under **File ▸ Open Recent Session**. Your decisions are saved automatically as you work, including during continuous keyboard review.
+- **Camera** — connect it by USB; it appears on the home screen. If your camera doesn't show up or behaves oddly, put it in mass-storage/PC mode or insert its card instead. Top Shelf recognizes the camera by its serial number, so connecting it again later continues the same review, with any new photos added. Some cameras don't report a serial number; those start a new review each time they connect. To keep one review going with such a camera, insert its card instead.
+- **Pick up where you left off** — recent reviews are listed on the home screen and under **File ▸ Open Recent Session**. Your decisions are saved automatically as you work, including during continuous keyboard review. If you add or delete photos in the folder or card between sessions, the same review continues: new photos show up as unreviewed and deleted ones drop out, and everything else keeps its decision. The same goes for an external drive you reconnect. Moving or renaming the folder starts a new review.
 
 You can start reviewing immediately. Top Shelf keeps organizing (finding moments, similar photos, and quality hints) in the background, starting with the photos nearest to where you are.
 
@@ -296,7 +296,7 @@ When an update is available you'll see what's new and choose whether to install 
 
 **My card doesn't appear.** Make sure it's mounted in Finder. If it is, use **Choose Folder to Review…** and select the card.
 
-**Top Shelf asks to "reconnect" a saved review.** It's making sure it's the same card. Insert it (or choose the same folder) and confirm access. If the card's contents changed since last time, Top Shelf starts a new review instead of guessing.
+**Top Shelf asks to "reconnect" a saved review.** It's making sure it's the same card. Insert it (or choose the same folder) and confirm access. Photos you added or deleted since last time are picked up in the same review. A photo whose file was replaced (same name, different contents) counts as a new, unreviewed photo, so it never inherits an old decision. If none of the earlier photos are there any more, as with a reformatted card, Top Shelf starts a new review and keeps the old one in Recent Sessions.
 
 **A photo says "Full-resolution preview unavailable".** The file may be in iCloud only, from a camera that hasn't finished transferring, or a RAW format your macOS version can't decode yet. Updating macOS adds newer camera RAW support.
 
